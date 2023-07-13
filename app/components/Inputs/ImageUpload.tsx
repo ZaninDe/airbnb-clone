@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-var */
 'use client'
 
 import { CldUploadWidget } from 'next-cloudinary'
