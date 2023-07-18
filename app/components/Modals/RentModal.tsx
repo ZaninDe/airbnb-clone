@@ -236,7 +236,7 @@ export function RentModal() {
           subtitle="How much do you charge per night?"
         />
         <Input
-          id="id"
+          id="price"
           label="price"
           formatPrice
           type="number"
