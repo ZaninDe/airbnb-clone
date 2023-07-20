@@ -20,7 +20,6 @@ export function useFavorite({ listingId, currentUser }: IUserFavorite) {
   const hasFavorited = useMemo(() => {
     const list = currentUser?.favoriteIds || []
 
-    console.log(currentUser)
     return list.includes(listingId)
   }, [currentUser, listingId])
 
