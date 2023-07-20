@@ -24,7 +24,7 @@ const url = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 const attribution =
   '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 
-export const Map = ({ center }: MapProps) => {
+const Map: React.FC<MapProps> = ({ center }) => {
   return (
     <MapContainer
       center={(center as L.LatLngExpression) || [51, -0.09]}
@@ -37,3 +37,5 @@ export const Map = ({ center }: MapProps) => {
     </MapContainer>
   )
 }
+
+export default Map
