@@ -60,7 +60,7 @@ export const UserMenu = ({ currentUser }: UserMenuProps) => {
                 <MenuItem onClick={() => {}} label="My properties" />
                 <MenuItem
                   onClick={() => rentModal.onOpen()}
-                  label="My Airbnb my home"
+                  label="Airbnb my home"
                 />
                 <hr />
                 <MenuItem onClick={() => signOut()} label="Logout" />
