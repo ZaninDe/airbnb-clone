@@ -8,6 +8,7 @@ import { LoginModal } from './components/Modals/LoginModal'
 import { ReactNode } from 'react'
 import getCurrentUser from './actions/getCurrentUser'
 import { RentModal } from './components/Modals/RentModal'
+import { SearchModal } from './components/Modals/SearchModal'
 
 const nunito = Nunito({ subsets: ['latin'] })
 
@@ -30,6 +31,7 @@ export default async function RootLayout({
         <LoginModal />
         <RegisterModal />
         <RentModal />
+        <SearchModal />
         <Navbar currentUser={currentUser} />
         {/* </ClientOnly> */}
         <div className="pb-20 pt-28">{children}</div>
