@@ -56,20 +56,20 @@
 * ### Shareable URL filters
 
 <div align="center">
-<img src=".github/img1.png" height="300px" />
+<img src=".github/img1.png"/>
 </div>
 
 
 #### Add properties or search for them
 
 <div align="center">
-  <img src=".github/img2.png" height="450" width="450">
+  <img src=".github/img2.png">
 </div>
 
 #### use the filter to find the better place to you
 
 <div align="center">
-  <img src=".github/img3.png" height="450" width="450">
+  <img src=".github/img3.png">
 </div>
 
 
