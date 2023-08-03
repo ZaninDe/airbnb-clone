@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 'use client'
 
 import qs from 'query-string'
@@ -40,7 +41,7 @@ export const SearchModal = () => {
       dynamic(() => import('../Map'), {
         ssr: false,
       }),
-    [location],
+    [],
   )
 
   const onBack = useCallback(() => {
