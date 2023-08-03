@@ -1,34 +1,141 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="left">
+   <img src="public/images/logo.png" width="200"/>
+</p>
 
-## Getting Started
 
-First, run the development server:
+> Read the best of news about tech
+> 
+[![Author](https://img.shields.io/badge/author-ZaninDe-ff9000?style=flat-square)](https://github.com/ZaninDe)
+[![Languages](https://img.shields.io/github/languages/count/ZaninDe/airbnb-clone?color=%23ff9000&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/ZaninDe/airbnb-clone?color=ff9000&style=flat-square)](https://github.com/ZaninDe/airbnb-clone/stargazers)
+[![Forks](https://img.shields.io/github/forks/ZaninDe/airbnb-clone?color=%23ff9000&style=flat-square)](https://github.com/ZaninDe/airbnb-clone/network/members)
+[![Contributors](https://img.shields.io/github/contributors/ZaninDe/airbnb-clone?color=ff9000&style=flat-square)](https://github.com/ZaninDe/airbnb-clone/graphs/contributors)
+
+---
+
+# :pushpin: Table of Contents
+
+- [:pushpin: Table of Contents](#pushpin-table-of-contents)
+- [:rocket: Features](#rocket-features)
+      - [Enjoy your subscription and get access entire of the posts](#enjoy-your-subscription-and-get-access-entire-of-the-posts)
+- [:construction_worker: Installation](#construction_worker-installation)
+  - [necessary settings](#necessary-settings)
+    - [**Requirements**](#requirements)
+    - [**Clone the project**](#clone-the-project)
+    - [**Running the project**](#running-the-project)
+- [:postbox: Faq](#postbox-faq)
+- [:bug: Issues](#bug-issues)
+- [:tada: Contributing](#tada-contributing)
+- [:closed_book: License](#closed_book-license)
+
+<br />
+<p align="center"><img src=".github/auth.gif" height="300px"/></p>
+
+# :rocket: Features
+
+* ### Tailwind design
+* ### Tailwind animations and effects
+* ### Full responsiveness
+* ### Credential authentication
+* ### Google authentication
+* ### Github authentication
+* ### Image upload using Cloudinary CDN
+* ### Client form validation and handling using react-hook-form
+* ### Server error handling using react-toast
+* ### Calendars with react-date-range
+* ### Page loading state
+* ### Page empty state
+* ### Booking / Reservation system
+* ### Guest reservation cancellation
+* ### Owner reservation cancellation
+* ### Creation and deletion of properties
+* ### Pricing calculation
+* ### Advanced search algorithm by category, date range, map location, number of guests, rooms and bathrooms
+* ### For example we will filter out properties that have a reservation in your desired date range to travel
+* ### Favorites system
+* ### Shareable URL filters
+
+<div align="center">
+<img src=".github/img1.png" height="300px" />
+</div>
+
+
+#### Add properties or search for them
+
+<div align="center">
+  <img src=".github/img2.png" height="450" width="450">
+</div>
+
+#### use the filter to find the better place to you
+
+<div align="center">
+  <img src=".github/img3.png" height="450" width="450">
+</div>
+
+
+# :construction_worker: Installation
+
+## necessary settings
+
+### **Requirements**
+
+What you'll need:
+
+- [Git](https://git-scm.com/)
+- [npm](https://classic.npmpkg.com)
+- [Google Client](https://developers.google.com/api-client-library?hl)
+- [Claudinary](https://cloudinary.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+Create account and configure the external services:
+
+- [Google Client](https://developers.google.com/api-client-library?hl)
+- [Claudinary](https://cloudinary.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+### **Clone the project**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Execute the command bellow to clone the repositore
+$ git clone https://github.com/ZaninDe/airbnb-clone.git
+# go to directory
+$ cd airbnb-clone
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **Running the project**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Execute npm to install the dependencies
+$ npm install
+# in the root of project, create a new file and clone .env.local.example
+# change the name of file copy to .env.local
+# fill the enviroment variables following the guide of the comments
+$ cd .env
+# to run the application:
+$ npm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# :postbox: Faq
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Question:** What are the tecnologies used in this project?
 
-## Deploy on Vercel
+**Answer:** The tecnologies used in this project are [Nextjs 13](https://nextjs.org/) + [Tailwindcss](https://tailwindcss.com/).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# :bug: Issues
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to **file a new issue** with a respective title and description on the [airbnb clone](https://github.com/ZaninDe/airbnb-clone/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! Have a look at our [contribution guidelines](https://github.com/ZaninDe/airbnb-clone/blob/master/CONTRIBUTING.md) to find out about the coding standards.
+
+# :tada: Contributing
+
+Check out the [contributing](https://github.com/ZaninDe/airbnb-clone/blob/master/CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
+
+# :closed_book: License
+
+Released in 2023 (Work in progress)
+This project is under the [MIT license](https://github.com/ZaninDe/airbnb-clone/master/LICENSE).
+
+Made with love by [Gabriel Zanin](https://github.com/ZaninDe) 🚀
